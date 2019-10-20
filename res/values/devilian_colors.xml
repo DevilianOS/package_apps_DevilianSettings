@@ -16,4 +16,11 @@
 -->
 <resources>
 
+    <color name="border_01">#ffb3ba</color>
+    <color name="border_02">#c9c9ff</color>
+    <color name="border_03">#ffffba</color>
+    <color name="border_04">#baffc9</color>
+    <color name="border_05">#bae1ff</color>
+    <color name="border_06">#f1cbff</color>
+    <color name="border_07">#ffd5d5</color>
 </resources>

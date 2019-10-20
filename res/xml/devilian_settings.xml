@@ -25,63 +25,49 @@
             android:title="Devilian Features" >
 
         <!-- Status Bar -->
-        <com.devilian.settings.preferences.CardviewPreference
+        <com.devilian.settings.preferences.CardviewPreference_01
             android:key="statusbar_category"
             android:title="@string/statusbar_title"
             android:fragment="com.devilian.settings.fragments.StatusbarSettings"
             android:icon="@drawable/ic_settings_statusbar"/>
 
-        <!-- Quick Settings panel -->
-        <com.devilian.settings.preferences.CardviewPreference
-            android:key="quicksettings_category"
-            android:title="@string/quicksettings_title"
-            android:fragment="com.devilian.settings.fragments.QuickSettings"
-            android:icon="@drawable/ic_settings_quicksettings"/>
-
-        <!-- Buttons -->
-        <com.devilian.settings.preferences.CardviewPreference
-            android:key="buttonsettings_category"
-            android:title="@string/button_title"
-            android:fragment="com.devilian.settings.fragments.ButtonSettings"
-            android:icon="@drawable/ic_settings_buttons"/>
-
         <!-- Navigation Bar -->
-        <com.devilian.settings.preferences.CardviewPreference
+        <com.devilian.settings.preferences.CardviewPreference_02
             android:key="navigationbar_category"
             android:title="@string/navbar_title"
             android:fragment="com.devilian.settings.fragments.NavbarSettings"
             android:icon="@drawable/ic_settings_navbar"/>
 			
         <!-- Gestures -->
-        <com.devilian.settings.preferences.CardviewPreference
+        <com.devilian.settings.preferences.CardviewPreference_03
             android:key="gestures_category"
             android:title="@string/gestures_title"
             android:fragment="com.devilian.settings.fragments.GestureSettings"
             android:icon="@drawable/ic_settings_gestures"/>
 
         <!-- Lock Screen -->
-        <com.devilian.settings.preferences.CardviewPreference
+        <com.devilian.settings.preferences.CardviewPreference_04
             android:key="lockscreen_category"
             android:title="@string/lockscreen_title"
             android:fragment="com.devilian.settings.fragments.LockscreenSettings"
             android:icon="@drawable/ic_settings_lockscreen"/>
 
         <!-- Power Menu -->
-        <com.devilian.settings.preferences.CardviewPreference
+        <com.devilian.settings.preferences.CardviewPreference_05
             android:key="powermenu__category"
             android:title="@string/powermenu_title"
             android:fragment="com.devilian.settings.fragments.PowermenuSettings"
             android:icon="@drawable/ic_settings_powermenu"/>
 
         <!-- Notifications -->
-        <com.devilian.settings.preferences.CardviewPreference
+        <com.devilian.settings.preferences.CardviewPreference_06
             android:key="notifications_category"
             android:title="@string/notifications_title"
             android:fragment="com.devilian.settings.fragments.NotificationSettings"
             android:icon="@drawable/ic_settings_notifications"/>
 
         <!-- Misc -->
-        <com.devilian.settings.preferences.CardviewPreference
+        <com.devilian.settings.preferences.CardviewPreference_07
             android:key="misc_category"
             android:title="@string/misc_title"
             android:fragment="com.devilian.settings.fragments.MiscSettings"

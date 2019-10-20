@@ -41,14 +41,14 @@ import android.widget.TextView;
 import com.android.settings.R;
 import com.android.settings.Utils;
 
-public class CardviewPreference extends Preference {
+public class CardviewPreference_01 extends Preference {
 
     private final View.OnClickListener mClickListener = v -> performClick(v);
 
     private boolean mAllowDividerAbove;
     private boolean mAllowDividerBelow;
 
-    public CardviewPreference(Context context, AttributeSet attrs) {
+    public CardviewPreference_01(Context context, AttributeSet attrs) {
         super(context, attrs);
 
         TypedArray a = context.obtainStyledAttributes(attrs, R.styleable.Preference);
@@ -59,10 +59,10 @@ public class CardviewPreference extends Preference {
                 R.styleable.Preference_allowDividerBelow, false);
         a.recycle();
 
-        setLayoutResource(R.layout.preference_cardview);
+        setLayoutResource(R.layout.preference_cardview_01);
     }
 
-    public CardviewPreference(Context context, View view) {
+    public CardviewPreference_01(Context context, View view) {
         super(context);
     }
 

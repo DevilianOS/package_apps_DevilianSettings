@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="border_01">#110a60</color>
+    <color name="border_02">#310a60</color>
+    <color name="border_03">#510a60</color>
+    <color name="border_04">#710a60</color>
+    <color name="border_05">#910a60</color>
+    <color name="border_06">#b21717</color>
+    <color name="border_07">#5b1236</color>
+</resources>
+
